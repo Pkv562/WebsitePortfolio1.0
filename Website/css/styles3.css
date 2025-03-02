@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    padding: 0 40px;
+    background-color: #181a26;
+    color: white;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+.project-box {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    background-color: none;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+}
+
+button:active {
+    transform: scale(0.9);
+    opacity: calc(0.4);
+}

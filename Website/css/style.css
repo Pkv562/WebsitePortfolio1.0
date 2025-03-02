@@ -1,0 +1,98 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin: 0;
+}
+
+.calculator {
+    margin-top: 50px;
+    flex-direction: column;
+    display: flex;
+    width: 450px;
+}
+
+.location {
+    height: 100px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 50px;
+    text-align: right;
+}
+
+.buttons {
+    flex: 1;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    gap: 5px;
+}
+
+.level_1, .level_2, .level_3, .level_4, .level_5 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: bold;
+} 
+
+.level_5 {
+    justify-content: space-between;
+}
+
+.level_5 button:first-child {
+    flex: 2;
+    border-radius: 40px;
+}
+
+.level_5 button:nth-child(-n+2) {
+    margin-right: 20px;
+}
+
+.calc_buttons {
+    border: none;
+    height: 90px;
+    width: 90px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: 2px;
+    border-radius: 50%;
+    color: white;
+    transition: 0.2s;
+}
+
+.level_1 button:nth-child(-n+3) {
+    background-color: #7c7c7c;
+    color: white;
+}
+
+.level_2 button:nth-child(-n+3),
+.level_3 button:nth-child(-n+3),
+.level_4 button:nth-child(-n+3),
+.level_5 button:nth-child(-n+2) {
+    background-color: #3c3c3c;
+    color: white;
+}
+
+.level_1 button:nth-child(4),
+.level_2 button:nth-child(4),
+.level_3 button:nth-child(4),
+.level_4 button:nth-child(4),
+.level_5 button:nth-child(3) {
+    background-color: orange; 
+}
+
+.calc_buttons:hover {
+    filter: brightness(1.2);
+}
+
+.calc_buttons:active {
+    transform: scale(0.9);
+}

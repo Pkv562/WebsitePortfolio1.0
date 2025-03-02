@@ -1,0 +1,58 @@
+.navBar {
+    background-color: #0a192f;
+    color: white;
+    display: flex;
+    height: 75px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
+}
+
+.left_nav {
+    font-size: 20px;
+    font-family: Aleo;
+}
+
+.left_nav a {
+    cursor: pointer;
+    color: #65feda;
+    font-weight: bold;
+}
+
+.left_nav a:active {
+    transform: scale(0.9);
+    opacity: calc(0.4);
+}
+
+.right_nav {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    align-items: center;
+    font-family: Aleo;
+}
+
+.right_nav button {
+    background-color: transparent;
+    border-color: #65feda;
+    color: #65feda;
+    height: 35px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.right_nav button:active {
+    transform: scale(0.9);
+    opacity: calc(0.4);
+}
+
+.right_nav a {
+    cursor: pointer;
+}
+
+.right_nav a:active{
+    transform: scale(0.9);
+    opacity: calc(0.4);
+}

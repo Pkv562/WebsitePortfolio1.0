@@ -1,0 +1,49 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    text-align: justify;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    background-color: #f5f5f5; 
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%; 
+    max-width: 800px; 
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.skills, .education {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    flex-wrap: wrap;
+}
+
+.main_info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.left, .role {
+    text-align: left;
+    font-weight: bold;
+}
+
+.right {
+    text-align: right;
+    font-weight: bold;
+}
+
+
